@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+#header img{
+    width:100px;
+}
 
 #header {
     background-image: url(https://images.pexels.com/photos/3989820/pexels-photo-3989820.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
