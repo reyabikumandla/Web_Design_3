@@ -10,6 +10,10 @@
     background-size: cover;
 }
 
+.navbar-light .navbar-brand .logo {
+    width: 100px;
+}
+
 .navbar-nav li a {
     float: right;
     color: #fff !important;
