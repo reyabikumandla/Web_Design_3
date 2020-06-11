@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#header {
+    background-image: url(https://images.pexels.com/photos/3989820/pexels-photo-3989820.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    height: 90vh;
+    background-size: cover;
+}
+
+.navbar-nav li a {
+    float: right;
+    color: #fff !important;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+nav .fa-bars {
+    color: #fff !important;
+    font-size: 26px;
+}
+
+.navbar navbar-light {
+    position: fixed;
+}
+
+/*Welcome Text*/
+
+.welcome {
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
+
+}
+
+.welcome h1 {
+    color: #333;
+}
+
+/*About Us*/
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about .col-md-6 {
+    padding: 20px 10px;
+
+
+}
+
+#about h3 {
+    margin: 20px auto;
+
+
+}
+
+
+
+
+#services .col-md-4 img {
+    width: 150px;
+    height: 200px;
+}
+
+
+/*Services*/
+#sevices {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+#services .col-md-4 {
+    padding: 20px;
+
+}
+
+#services .col-md-4 h4 {
+    padding: 5px;
+
+}
+
+#services .col-md-4 p {
+    padding: 5px;
+    text-align: justify;
+    float: right;
+}
+
+footer {
+    background-color: #EFEFEF;
+
+}
+
+/*Features*/
+
+#features {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(, 0, 0, 0, 0.8)), url(https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+footer #features {
+    background-image: url(https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+
+#features .col-md-6 {
+    padding: 10px;
+}
+
+
+
+
+.feature-box .feature-left {
+    padding-top: 13px;
+    font-size: 50px;
+
+}
+
+/*testimonials*/
+#testimonials {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#testimonials .col-md-4 {
+    padding: 10px 30px;
+}
+
+#testimonials img {
+    width: 60px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -40px;
+    border: 5px solid #fff;
+    margin-bottom: 30px;
+}
+
+.review {
+    font-size: 16;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.review .fa-twitter {
+    color: #013f7e;
+}
+
+#testimonials span {
+    color: #013f7e;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+#testimonials h1 {
+    margin-bottom: 20px;
+    color: #013f7e;
+
+}
+
+#testimonials p {
+    padding-bottom: 20px;
+}
+
+#testimonials .middle {
+    margin-bottom: -30px;
+    margin-top: -30px;
+
+}
+
+/*Book Now*/
+
+.book-now {
+
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-now h3,
+.book-now p {
+    color: #fff;
+
+}
+
+.book-now .input-group {
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+
+}
+
+.book-now .form-control {
+    border: none;
+    background: transparent;
+
+}
+
+.book-now .form-control:focus {
+    box-shadow: none;
+    background: transparent;
+
+}
+
+.book-now .input-group-append {
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 30px;
+}
+
+.book-now .input-group-text {
+    background: transparent;
+    border: none;
+    color: #fff;
+
+}
+
+.book-now btn:focus {
+    box-shadow: none;
+}
+
+#footer {
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013F7E;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+#footer h1 {
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: left;
+   
+}
+
+.navbar-brand img {
+    width:100px;
+    height:100px;
+}
+
+#sent {
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+}
+
+#footer .fa {
+    padding-right: 20px;
+}
